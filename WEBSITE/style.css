@@ -1,0 +1,906 @@
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+a:hover img {
+    filter: brightness(1.1);
+}
+
+.desktop {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  position: relative;
+}
+
+.desktop .group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1545px;
+  height: 1024px;
+}
+
+.desktop .rectangle {
+  left: 0;
+  width: 378px;
+  position: absolute;
+  top: 0;
+  height: 1024px;
+}
+
+.desktop .img {
+  left: 310px;
+  width: 1130px;
+  position: absolute;
+  top: 0;
+  height: 1024px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 338px;
+  width: 685px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .profile-picture {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  width: 253px;
+  height: 253px;
+  display: flex;
+  background-image: url(./img/empty-item-frame-minecraft-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .element {
+  margin-top: 14px;
+  width: 224px;
+  height: 230px;
+  margin-left: 15px;
+  aspect-ratio: 0.98;
+  object-fit: cover;
+}
+
+.desktop .my-inventory {
+  position: absolute;
+  top: 371px;
+  left: 23px;
+  width: 253px;
+  height: 53px;
+}
+
+.desktop .menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 251px;
+  height: 53px;
+  aspect-ratio: 4.74;
+}
+
+.desktop .div {
+  position: absolute;
+  top: 17px;
+  left: calc(50.00% - 122px);
+  width: 244px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .level-up-experiences {
+  position: absolute;
+  top: 503px;
+  left: 0;
+  width: 316px;
+  height: 96px;
+}
+
+.desktop .menu-2 {
+  top: 24px;
+  left: 23px;
+  position: absolute;
+  width: 251px;
+  height: 53px;
+  aspect-ratio: 4.74;
+}
+
+.desktop .minecraft-xp-orb {
+  top: 0;
+  left: 0;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-2 {
+  top: 45px;
+  left: 246px;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-3 {
+  top: 26px;
+  left: 11px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-4 {
+  top: 37px;
+  left: 272px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-5 {
+  top: 59px;
+  left: 39px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-6 {
+  top: 11px;
+  left: 229px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-7 {
+  top: 70px;
+  left: 16px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-8 {
+  top: 14px;
+  left: 260px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 37px;
+  left: 44px;
+  width: 270px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .achievements {
+  position: absolute;
+  top: 425px;
+  left: 3px;
+  width: 308px;
+  height: 101px;
+}
+
+.desktop .menu-3 {
+  top: 24px;
+  left: 20px;
+  position: absolute;
+  width: 251px;
+  height: 53px;
+  aspect-ratio: 4.74;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 37px;
+  left: 25px;
+  width: 244px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .a-minecraft-diamond {
+  top: 34px;
+  left: 239px;
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .a-minecraft-diamond-2 {
+  top: 58px;
+  left: 224px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .a-minecraft-diamond-3 {
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .a-minecraft-diamond-4 {
+  top: 40px;
+  left: 4px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .school-university-of {
+  position: absolute;
+  top: 222px;
+  left: 350px;
+  width: 971px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .span {
+  color: #f79090;
+}
+
+.desktop .text-wrapper-4 {
+  color: #ffffff;
+}
+
+.desktop .text-wrapper-5 {
+  color: #420303;
+}
+
+.desktop .text-wrapper-6 {
+  color: #ff0000;
+}
+
+.desktop .text-wrapper-7 {
+  color: #fffbfb;
+}
+
+.desktop .text-wrapper-8 {
+  color: #420202;
+}
+
+.desktop .text-wrapper-9 {
+  color: #880808;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  top: 85px;
+  left: 1023px;
+  width: 170px;
+  height: 64px;
+}
+
+.desktop .hardcore-heart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .hardcore-heart-2 {
+  left: 52px;
+  position: absolute;
+  top: 0;
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .hardcore-heart-3 {
+  left: 106px;
+  position: absolute;
+  top: 0;
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.desktop {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  position: relative;
+}
+
+.desktop .group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1545px;
+  height: 1024px;
+}
+
+.desktop .rectangle {
+  left: 0;
+  width: 378px;
+  position: absolute;
+  top: 0;
+  height: 1024px;
+}
+
+.desktop .img {
+  left: 310px;
+  width: 1130px;
+  position: absolute;
+  top: 0;
+  height: 1024px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 338px;
+  width: 685px;
+  font-family: "Koulen-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+.desktop .profile-picture {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  width: 253px;
+  height: 253px;
+  display: flex;
+  background-image: url(./img/empty-item-frame-minecraft-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 0;
+}
+
+.desktop .element {
+  margin-top: 14px;
+  width: 224px;
+  height: 230px;
+  margin-left: 15px;
+  aspect-ratio: 0.98;
+  object-fit: cover;
+}
+
+.desktop .my-inventory {
+  position: absolute;
+  top: 371px;
+  left: 23px;
+  width: 253px;
+  height: 53px;
+}
+
+.desktop .menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 251px;
+  height: 53px;
+  aspect-ratio: 4.74;
+}
+
+.desktop .div {
+  position: absolute;
+  top: 17px;
+  left: calc(50.00% - 122px);
+  width: 244px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .level-up-experiences {
+  position: absolute;
+  top: 503px;
+  left: 0;
+  width: 316px;
+  height: 96px;
+}
+
+.desktop .menu-2 {
+  top: 24px;
+  left: 23px;
+  position: absolute;
+  width: 251px;
+  height: 53px;
+  aspect-ratio: 4.74;
+}
+
+.desktop .minecraft-xp-orb {
+  top: 0;
+  left: 0;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-2 {
+  top: 45px;
+  left: 246px;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-3 {
+  top: 26px;
+  left: 11px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-4 {
+  top: 37px;
+  left: 272px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-5 {
+  top: 59px;
+  left: 39px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-6 {
+  top: 11px;
+  left: 229px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-7 {
+  top: 70px;
+  left: 16px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .minecraft-xp-orb-8 {
+  top: 14px;
+  left: 260px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 37px;
+  left: 44px;
+  width: 270px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+.desktop .achievements {
+  position: absolute;
+  top: 425px;
+  left: 3px;
+  width: 308px;
+  height: 101px;
+}
+
+.desktop .menu-3 {
+  top: 24px;
+  left: 20px;
+  position: absolute;
+  width: 251px;
+  height: 53px;
+  aspect-ratio: 4.74;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 37px;
+  left: 25px;
+  width: 244px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+.desktop .a-minecraft-diamond {
+  top: 34px;
+  left: 239px;
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .a-minecraft-diamond-2 {
+  top: 58px;
+  left: 224px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .a-minecraft-diamond-3 {
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .a-minecraft-diamond-4 {
+  top: 40px;
+  left: 4px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .school-university-of {
+  position: absolute;
+  top: 222px;
+  left: 350px;
+  width: 971px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .school-university-of dl {
+  margin: 0;
+  padding: 0;
+}
+
+.desktop .school-university-of dt {
+  display: inline;
+  color: #f79090;
+}
+
+.desktop .school-university-of dd {
+  display: inline;
+  margin: 0;
+}
+
+.desktop .span {
+  color: #f79090;
+}
+
+.desktop .text-wrapper-4 {
+  color: #ffffff;
+}
+
+.desktop .text-wrapper-5 {
+  color: #420303;
+}
+
+.desktop .text-wrapper-6 {
+  color: #ff0000;
+}
+
+.desktop .text-wrapper-7 {
+  color: #fffbfb;
+}
+
+.desktop .text-wrapper-8 {
+  color: #420202;
+}
+
+.desktop .text-wrapper-9 {
+  color: #880808;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  top: 85px;
+  left: 1023px;
+  width: 170px;
+  height: 64px;
+}
+
+.desktop .hardcore-heart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .hardcore-heart-2 {
+  left: 52px;
+  position: absolute;
+  top: 0;
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .hardcore-heart-3 {
+  left: 106px;
+  position: absolute;
+  top: 0;
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.desktop2 {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1451px;
+  min-height: 1024px;
+  position: relative;
+}
+
+.desktop2 .group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1451px;
+  height: 1024px;
+}
+
+.desktop2 .vector {
+  position: absolute;
+  top: 73px;
+  left: 676px;
+  width: 20px;
+  height: 113px;
+}
+
+.desktop2 .group-2 {
+  position: absolute;
+  top: 961px;
+  left: 21px;
+  width: 265px;
+  height: 63px;
+}
+
+.desktop2 .group-3 {
+  position: absolute;
+  top: 267px;
+  left: 112px;
+  width: 340px;
+  height: 119px;
+}
+
+.desktop2 .img {
+  width: 338px;
+  height: 71px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  aspect-ratio: 4.74;
+}
+
+.desktop2 .text-wrapper-2 {
+  position: absolute;
+  top: 20px;
+  left: 29px;
+  width: 234px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop2 .text-wrapper-3 {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 338px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop2 .text-wrapper-4 {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 338px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop2 .text-wrapper-5 {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 338px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop2 .menu {
+  width: 251px;
+  height: 53px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  aspect-ratio: 4.74;
+}
+
+.desktop2 .group-4 {
+  position: absolute;
+  top: 267px;
+  left: 995px;
+  width: 340px;
+  height: 119px;
+}
+
+.desktop2 .laboratory {
+  position: absolute;
+  top: 15px;
+  left: 1px;
+  width: 338px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop2 .div {
+  position: absolute;
+  top: 130px;
+  left: 726px;
+  width: 607px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop2 .text-wrapper {
+  position: absolute;
+  top: 48px;
+  left: 73px;
+  width: 647px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop2 .group-5 {
+  position: absolute;
+  top: 267px;
+  left: 543px;
+  width: 340px;
+  height: 119px;
+}
